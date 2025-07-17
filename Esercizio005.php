@@ -11,16 +11,17 @@ for ($i = 1; $i <= 30; $i++) {
     
   if ($i % 3 == 0 || $i % 5 == 0  ) {
     if ($i % 3 == 0 && $i % 5 == 0 ){
-              echo "Il numero ". $i ." è multiplo di 3 e 5 ". "\n";
+            //  echo "Il numero ". $i ." è multiplo di 3 e 5 ". "\n";
               echo "Francesco". "\n";
           } else if ($i % 5 == 0){
-              echo "Il numero ". $i ." è multiplo di 5 ". "\n";
+            //  echo "Il numero ". $i ." è multiplo di 5 ". "\n";
               echo "JAVASCRIPT". "\n";
           } else if ($i % 3 == 0 ){
-              echo "Il numero ". $i ." è multiplo di 3 ". "\n";
+            //  echo "Il numero ". $i ." è multiplo di 3 ". "\n";
               echo "PHP". "\n";
           } 
         } else  {
-            echo "Il numero ". $i ." non è multiplo ne de 3 ne di 5 ". "\n";
+          echo $i. "\n";
+          //  echo "Il numero ". $i ." non è multiplo ne de 3 ne di 5 ". "\n";
           }
     }   
